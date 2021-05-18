@@ -1,0 +1,6 @@
+[submodule "python-isort"]
+	path = python-isort
+	url = https://github.com/nasyxx/emacs-python-isort.git
+[submodule "nasy-theme"]
+	path = nasy-theme
+	url = https://github.com/nasyxx/emacs-nasy-theme.git

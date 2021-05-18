@@ -1,0 +1,22 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:{} arch:headline author:t
+#+options: broken-links:mark c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: Nasy Emacs 之寶
+#+date: <2021-05-18 Tue>
+#+author: Nasy
+#+email: nasyxx@gmail.com
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.0.50 (Org mode 9.4.5)
+
+#+export_file_name: README.org
+
+* [[file:python-isort/README.org][Python isort]]
+
+#+include: ./python-isort/README.org :lines "13-"
+
+* 外皃 Theme
+
+#+include: ./nasy-theme/README.org :lines "14-"
