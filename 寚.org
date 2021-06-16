@@ -2,7 +2,7 @@
 #+options: broken-links:mark c:nil creator:nil d:(not "LOGBOOK") date:t e:t
 #+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
 #+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
-#+title: Nasy Emacs 之寶
+#+title: Nasy Emacs 之寚
 #+date: <2021-05-18 Tue>
 #+author: Nasy
 #+email: nasyxx@gmail.com
@@ -20,3 +20,7 @@
 * 外皃 Theme
 
 #+include: ./nasy-theme/README.org :lines "14-"
+
+* 襍
+
+#+include: ./襍/README.org :lines "14-"
