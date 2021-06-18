@@ -1,4 +1,4 @@
-#+PROPERTY: header-args:elisp :tangle (expand-file-name "nasy-襍.el") :lexical t
+#+PROPERTY: header-args:emacs-lisp :tangle (expand-file-name "nasy-襍.el") :lexical t
 #+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:{} arch:headline
 #+options: author:t broken-links:mark c:nil creator:nil
 #+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
@@ -16,7 +16,7 @@
 
 * 題                                                           :noexport:
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   ;;; nasy-襍.el --- Nasy's 襍餘.  -*- lexical-binding: t; -*-
 
   ;; Copyright (C) 2021  Nasy
@@ -32,7 +32,7 @@
 
 * Single Function to Center Emacs Window on Screen
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   ;;;###autoload
   (defun nasy/frame-recenter (&optional frame)
     "Center FRAME on the screen.
@@ -53,7 +53,7 @@
 
 * 結                                                           :noexport:
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   ;;(provide 'nasy-襍)
   ;;; nasy-襍.el ends here
 #+end_src

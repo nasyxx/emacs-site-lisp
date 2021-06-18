@@ -13,7 +13,7 @@
 
 * [[file:python-isort/README.org][Python isort]]
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   ;;; nasy-python-isort.el --- Utility to sort Python imports -*- lexical-binding: t; -*-
 
   (require 'reformatter)
@@ -58,7 +58,7 @@ Nasy's Emacs Theme
 
 ** Definition
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   (defgroup nasy-theme nil
     "Options of Nasy's theme."
     :group 'faces)
@@ -144,7 +144,7 @@ Nasy's Emacs Theme
 
 ** Theme
 
-#+begin_src elisp
+#+begin_src emacs-lisp
   (deftheme nasy)
 
   (let* ((class '((class color) (min-colors 89)))
