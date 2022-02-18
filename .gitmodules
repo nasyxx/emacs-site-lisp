@@ -4,3 +4,6 @@
 [submodule "nasy-theme"]
 	path = nasy-theme
 	url = https://github.com/nasyxx/emacs-nasy-theme.git
+[submodule "bibtex-tidy-mode"]
+	path = bibtex-tidy-mode
+	url = https://github.com/nasyxx/bibtex-tidy-mode.git
